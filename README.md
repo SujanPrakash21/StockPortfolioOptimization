@@ -4,17 +4,16 @@ This project is a Stock Portfolio Optimization application that uses machine lea
 
 Table of Contents
 
-Project Overview
+- Project Overview
 
-Tech Stack
+- Tech Stack
 
-Features
+- Features
 
-Installation
+- Installation
 
-Usage
+- Usage
 
-License
 
 Project Overview
 The Stock Portfolio Optimization app provides the following capabilities:
@@ -76,3 +75,9 @@ Streamlit Web Interface:
 Allows users to input a stock ticker symbol, select the size of the training data, and visualize stock data and predictions.
 
 Includes a sidebar for controlling inputs like stock ticker and training data size.
+
+Usage
+
+Running the App
+To run the application locally, use the following command:
+streamlit run app.py
