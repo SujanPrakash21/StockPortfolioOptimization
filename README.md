@@ -10,8 +10,6 @@ Table of Contents
 
 - Features
 
-- Installation
-
 - Usage
 
 
@@ -33,7 +31,7 @@ The app uses Streamlit to provide a user-friendly interface that allows users to
 
 Tech Stack
 
-##Python Libraries:
+## Python Libraries:
 
 - numpy: For numerical operations and data manipulation.
 
