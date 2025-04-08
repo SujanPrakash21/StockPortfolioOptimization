@@ -15,7 +15,8 @@ Table of Contents
 - Usage
 
 
-Project Overview
+## Project Overview
+
 The Stock Portfolio Optimization app provides the following capabilities:
 
 Stock Price Prediction:
@@ -31,31 +32,33 @@ Interactive Visualization:
 The app uses Streamlit to provide a user-friendly interface that allows users to interact with stock data, predictions, and sentiment scores.
 
 Tech Stack
-Python Libraries:
-numpy: For numerical operations and data manipulation.
 
-pandas: For data manipulation and handling of stock data.
+##Python Libraries:
 
-matplotlib: For plotting and data visualization.
+- numpy: For numerical operations and data manipulation.
 
-yfinance: For fetching stock price data from Yahoo Finance.
+- pandas: For data manipulation and handling of stock data.
 
-keras: For building and loading a pre-trained stock prediction model.
+- matplotlib: For plotting and data visualization.
 
-streamlit: For creating an interactive web application interface.
+- yfinance: For fetching stock price data from Yahoo Finance.
 
-vaderSentiment: For performing sentiment analysis on news articles.
+- keras: For building and loading a pre-trained stock prediction model.
 
-requests: For making HTTP requests to NewsAPI to fetch news articles.
+- streamlit: For creating an interactive web application interface.
 
-sklearn: For data scaling and pre-processing.
+- vaderSentiment: For performing sentiment analysis on news articles.
+
+- requests: For making HTTP requests to NewsAPI to fetch news articles.
+
+- sklearn: For data scaling and pre-processing.
 
 External APIs:
 Yahoo Finance: For retrieving historical stock data.
 
 NewsAPI: For fetching news articles related to the stock and performing sentiment analysis.
 
-Features
+## Features
 Stock Data Visualization:
 Displays historical stock prices (closing prices) in an interactive plot.
 
@@ -76,7 +79,7 @@ Allows users to input a stock ticker symbol, select the size of the training dat
 
 Includes a sidebar for controlling inputs like stock ticker and training data size.
 
-Usage
+## Usage
 
 Running the App
 To run the application locally, use the following command:
